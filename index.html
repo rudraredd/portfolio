@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(20, 20, 62);
+
+        }
+
+        main hr {
+
+            height: 1.2px;
+            background-color: rgb(209, 191, 214);
+            margin: auto;
+            border: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: burlywood;
+            font-size: 1.1rem;
+
+        }
+
+        .firstsection {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection>div {
+            width: 30%;
+            font-size: 40px;
+
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .leftsection {
+            width: 34px;
+            margin: 30px;
+
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 23px 0;
+            height: 100%;
+            margin-left: 45%;
+
+        }
+
+        .purple {
+            color: rgb(145, 6, 187);
+        }
+
+        #element {
+            color: rgb(145, 6, 187);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .gap {
+            margin: 20px 0;
+
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .text-grey {
+            color: rgb(55, 189, 201);
+            margin-top: 20px;
+        }
+
+        .secondsection .box {
+            background: white;
+
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 130px;
+        }
+
+        .timeline-card {
+            background-color: rgb(75, 189, 189);
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 5px solid;
+            transition: background-color 0.3s;
+        }
+
+        .timeline-card:hover {
+            background-color: rgb(3, 210, 210);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            color: #F8EDE3;
+        }
+
+        .header h2 {
+            font-size: 1.5em;
+            color: #264653;
+        }
+
+        .project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project-item {
+            background-color: #DFD3C3;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item h3 {
+            margin: 0 0 10px 0;
+            color: #e76f51;
+        }
+
+        .project-item p {
+            margin: 0;
+            color: #333;
+        }
+        #skills {
+    background-color:#F8EDE3;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 40%;
+}
+
+.skill img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill-info {
+    text-align: left;
+}
+
+.skill-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.skill-info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #666666;
+}
+
+footer {
+    background-color:#F8EDE3;
+    color:black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-contact {
+    margin-bottom: 10px;
+}
+
+.footer-contact a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.social-icon {
+    padding: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rudras portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi my name is <span class="purple">Rudra</span>
+                <div>and I am passinoate about </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="3426526.jpg" alt="image">
+            </div>
+            
+            <h1>
+        </section>
+        <section class="secondsection">
+            <hr>
+            <span class="text-grey">what i have done so far</span>
+            <h1 class="gap">Education</h1>
+            <div style="width: 70%; margin: 0 auto; padding: 5px; font-family: Arial, sans-serif;">
+                <h2 style="text-align: center; margin-bottom: 40px;">Education Timeline</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 30px;">
+                        <div class="timeline-card" style="border-left-color: #4CAF50;">
+                            <h3 style="margin: 0;">Primary School</h3>
+                            <p style="margin: 5px 0;">SRI VISWASANTHI EDUCATIONAL INSTITUTIONS</p>
+                            <span style="color: #1f0202;">2007 - 2020</span>
+                        </div>
+                    </li>
+                    <li style="margin-bottom: 30px;">
+                        <div class="timeline-card" style="border-left-color: #2196F3;">
+                            <h3 style="margin: 0;">High School</h3>
+                            <p style="margin: 5px 0;">SRI VISWASANTHI EDUCATIONAL INSTITUTIONS</p>
+                            <span style="color: #1f0202;">2020 - 2022</span>
+                        </div>
+                    </li>
+                    <li style="margin-bottom: 30px;">
+                        <div class="timeline-card" style="border-left-color: #FF5722;">
+                            <h3 style="margin: 0;">Graduation</h3>
+                            <p style="margin: 5px 0;">SRM University AP</p>
+                            <span style="color: #1f0202;">2022 - 2026</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+        </section>
+    </main>
+    <div class="container">
+        <div class="header">
+            <h1>Projects</h1>
+            <h2>Here are some of the projects that I have done so far</h2>
+        </div>
+        <ul class="project-list">
+            <li class="project-item">
+                <h3>Calculator Using C Language</h3>
+                <p>This project involves creating a simple calculator using the C programming language.</p>
+            </li>
+            <li class="project-item">
+                <h3>Train Ticket System Using Data Structures</h3>
+                <p>A train ticket booking system developed using various data structures.</p>
+            </li>
+            <li class="project-item">
+                <h3>Fitness Application Using React</h3>
+                <p>A modern fitness tracking application built with React.</p>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="verified.png" alt="Checkmark">
+                <div class="skill-info">
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="verified.png" alt="Checkmark">
+                <div class="skill-info">
+                    <h3>DSA</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="verified.png" alt="Checkmark">
+                <div class="skill-info">
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="verified.png" alt="Checkmark">
+                <div class="skill-info">
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="verified.png" alt="Checkmark">
+                <div class="skill-info">
+                    <h3>C++</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="verified.png" alt="Checkmark">
+                <div class="skill-info">
+                    <h3>Video Editing</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+              <p><a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">Linkedin
+                    <img src="icons8-linkedin-50.png" alt="LinkedIn" class="social-icon">
+                </a>
+               <p><a href="mailto:your-email@gmail.com">Gmail
+                    <img src="icons8-gmail-24.png" alt="Email" class="social-icon">
+                </a>
+            </div>
+            <div class="footer-contact">
+                <a href="rudrareddy008@gmail.com">Contact Me</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2024 Rudra reddy. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web development', '&amp;  software engineering.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
